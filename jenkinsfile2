@@ -1,4 +1,5 @@
 pipeline{
+ agent
     stages{
         stage("echo a line"){
             steps{
